@@ -13,7 +13,13 @@
     "username": "<username>",
     "password": "<password>",
     "clientid": "<client-id>",
-    "clientsecret": "<client-secret>"
+    "clientsecret": "<client-secret>",
+    "email": "rondineleg@gmail.com",
+    "senha": "8f5954",
+    "dev": "http://app.bussola.test/",
+    "prod": "https://app.bussolasocial.com.br/",
+    "usuarioGestor": "rondineleg@gmail.com",
+    "senhaGestor": "8f5954"
   },
   "reporter": "junit",
   "reporterOptions": {
