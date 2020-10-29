@@ -4,6 +4,11 @@
   "description": "Azure pipeline",
   "main": "index.js",
   "scripts": {
+    "test": "npx cypress run",
+    "cy:clear": "rmdir -R -f cypress/ reports || true",
+    "test:chrome": "cypress run --browser chrome",
+    "report:merge": "mochawesome-merge reports/mocha/*.json > reports/index.json",
+    "report:generate": "marge reports/index.json --reportDir ./ --assetsDir reports/assets --reportPageTitle index.html",
     "cy:open": "cypress open",
     "cy:version": "cypress version",
     "cy:run:headless": "cypress run",

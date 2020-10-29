@@ -1,7 +1,7 @@
 {
-  "baseUrl": "https://example.cypress.io",
+  "baseUrl": "https://app.bussolasocial.com.br",
   "chromeWebSecurity": false,
-  "video": true,
+  "video": false,
   "pageLoadTimeout": 60000,
   "requestTimeout": 60000,
   "responseTimeout": 60000,
@@ -20,9 +20,12 @@
     "prod": "https://app.bussolasocial.com.br/",
     "usuarioGestor": "rondineleg@gmail.com",
     "senhaGestor": "8f5954"
-  },
-  "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "cypress/reports/junit.[hash].xml"
-  }
+  },  
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "configFile": "mocha-config.json",
+      "mochaFile": "./reports/junit/junit.[hash].xml"
+    },
+
+    "videoCompression": 15
 }
