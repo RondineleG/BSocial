@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.8520" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:17:32" tests="0" file="cypress\integration\03 - Recuperar Senha\RecuperarSenha.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Recuperação de senha" timestamp="2020-10-30T03:17:32" tests="2" time="6.8520" failures="0">
+    <testcase name="Recuperação de senha Recuperar senha com email invalido" time="3.9900" classname="Recuperar senha com email invalido">
+    </testcase>
+    <testcase name="Recuperação de senha Recuperar senha com email valido" time="2.8620" classname="Recuperar senha com email valido">
+    </testcase>
+  </testsuite>
+</testsuites>

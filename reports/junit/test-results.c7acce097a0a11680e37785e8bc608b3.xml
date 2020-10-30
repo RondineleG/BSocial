@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.3150" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:16:54" tests="0" file="cypress\integration\00 - Criar Conta\CriarNovaConta.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Criar uma nova conta no Bussola Social" timestamp="2020-10-30T03:16:54" tests="3" time="15.3150" failures="0">
+    <testcase name="Criar uma nova conta no Bussola Social Validar cadastro com email ja utilizado " time="6.7390" classname="Validar cadastro com email ja utilizado ">
+    </testcase>
+    <testcase name="Criar uma nova conta no Bussola Social Validar cadastro com senhas diferentes" time="4.7730" classname="Validar cadastro com senhas diferentes">
+    </testcase>
+    <testcase name="Criar uma nova conta no Bussola Social Validar cadastro de uma nova conta " time="3.8030" classname="Validar cadastro de uma nova conta ">
+    </testcase>
+  </testsuite>
+</testsuites>

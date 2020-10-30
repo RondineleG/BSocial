@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.1920" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:20:29" tests="0" file="cypress\integration\06 - Programas\CadastrarPrograma.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cadastrar Um Novo Programa" timestamp="2020-10-30T03:20:29" tests="2" time="21.1920" failures="0">
+    <testcase name="Cadastrar Um Novo Programa Cadastro de novo prgrama" time="14.3650" classname="Cadastro de novo prgrama">
+    </testcase>
+    <testcase name="Cadastrar Um Novo Programa Exclusão de um programa existente" time="6.8270" classname="Exclusão de um programa existente">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="81.5150" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:17:59" tests="0" file="cypress\integration\05- Projetos\CadastrarProjeto.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cadastrar Um Novo Projeto" timestamp="2020-10-30T03:17:59" tests="5" time="81.5150" failures="0">
+    <testcase name="Cadastrar Um Novo Projeto Cadastrar novo projeto " time="29.9240" classname="Cadastrar novo projeto ">
+    </testcase>
+    <testcase name="Cadastrar Um Novo Projeto Editar um projeto existente" time="17.4050" classname="Editar um projeto existente">
+    </testcase>
+    <testcase name="Cadastrar Um Novo Projeto Cadastrar Dados básicos" time="14.4240" classname="Cadastrar Dados básicos">
+    </testcase>
+    <testcase name="Cadastrar Um Novo Projeto Cadastrar Resumo do projeto" time="9.1570" classname="Cadastrar Resumo do projeto">
+    </testcase>
+    <testcase name="Cadastrar Um Novo Projeto Cadastrar objetivos" time="10.6050" classname="Cadastrar objetivos">
+    </testcase>
+  </testsuite>
+</testsuites>

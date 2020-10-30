@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="6" failures="0" skipped="6">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:21:11" tests="0" file="cypress\integration\P.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cadasrar" timestamp="2020-10-30T03:21:11" tests="6" time="0.0000" failures="0">
+  </testsuite>
+</testsuites>

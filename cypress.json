@@ -17,11 +17,11 @@
     "usuarioGestor": "rondineleg@gmail.com",
     "senhaGestor": "8f5954"
   },  
-    "reporter": "mochawesome",
-    "reporterOptions": {
-      "configFile": "mocha-config.json",
-      "mochaFile": "./reports/junit/junit.[hash].xml"
-    },
+  "reporter": "mocha-junit-reporter",
+  "reporterOptions": {
+    "mochaFile": "./reports/junit/test-results.[hash].xml",
+    "testsuitesTitle": false
+  },
 
     "videoCompression": 15
 }

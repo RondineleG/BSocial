@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="3" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:21:00" tests="0" file="cypress\integration\Modulo - Atendimento\Atendidos\Organizacao\CadastrarAtenOrganizacao.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cadastrar novo Atendico - Organização" timestamp="2020-10-30T03:21:00" tests="3" time="0.0000" failures="0">
+  </testsuite>
+</testsuites>

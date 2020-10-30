@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.4690" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:19:39" tests="0" file="cypress\integration\05- Projetos\EditarProjeto.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Editar Projeto Existente" timestamp="2020-10-30T03:19:39" tests="3" time="39.4690" failures="0">
+    <testcase name="Editar Projeto Existente Editar dados basicos de um projeto existente" time="21.2550" classname="Editar dados basicos de um projeto existente">
+    </testcase>
+    <testcase name="Editar Projeto Existente Editar resumo de um projeto existente" time="7.6170" classname="Editar resumo de um projeto existente">
+    </testcase>
+    <testcase name="Editar Projeto Existente Editar Objetivos de um projeto existente" time="10.5970" classname="Editar Objetivos de um projeto existente">
+    </testcase>
+  </testsuite>
+</testsuites>

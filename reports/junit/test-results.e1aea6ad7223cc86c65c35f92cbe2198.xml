@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.5410" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-10-30T03:17:16" tests="0" file="cypress\integration\01 - Login\Login.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Fazer login no Bussola Social" timestamp="2020-10-30T03:17:16" tests="3" time="9.5410" failures="0">
+    <testcase name="Fazer login no Bussola Social Teste login com dados invalidos" time="2.0250" classname="Teste login com dados invalidos">
+    </testcase>
+    <testcase name="Fazer login no Bussola Social Login usando comando global cypress" time="1.8790" classname="Login usando comando global cypress">
+    </testcase>
+    <testcase name="Fazer login no Bussola Social Login com dados validos" time="5.6370" classname="Login com dados validos">
+    </testcase>
+  </testsuite>
+</testsuites>
