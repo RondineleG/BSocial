@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://app.bussolasocial.com.br",
   "chromeWebSecurity": false,
-  "video": false,
+  "video": true,
   "pageLoadTimeout": 60000,
   "requestTimeout": 60000,
   "responseTimeout": 60000,
@@ -10,10 +10,6 @@
   "viewportWidth": 1200,
   "viewportHeight": 1000,
   "env": {
-    "username": "<username>",
-    "password": "<password>",
-    "clientid": "<client-id>",
-    "clientsecret": "<client-secret>",
     "email": "rondineleg@gmail.com",
     "senha": "8f5954",
     "dev": "http://app.bussola.test/",
