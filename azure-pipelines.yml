@@ -41,7 +41,7 @@ stages:
   - job: e2e_testing_job_firefox
     displayName: 'Run E2E in Firefox'
     pool:
-      vmImage: macos-latest
+      vmImage: ubuntu-latest
     steps:
       - template: devops/e2e.testing.yml
         parameters:
@@ -54,7 +54,7 @@ stages:
   - job: e2e_testing_job_edge
     displayName: 'Run E2E in Edge'
     pool:
-      vmImage: macos-latest
+      vmImage: ubuntu-latest
     steps:
       - template: devops/e2e.testing.yml
         parameters:
