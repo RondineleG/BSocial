@@ -65,9 +65,11 @@ class Projeto
 
     PreencherResumoDoProjeto() 
     {        
-        cy.get(el.resumoProjeto).clear();
-       
-        cy.get(el.resumoProjeto).type('Breve resumo sobre o projeto a ser criado');
+
+        cy.visit('https://app.bussolasocial.com.br/projeto-novo/6576/cadastro/resumo')
+
+        cy.get(el.resumoProjeto).clear()
+          .type('Breve resumo sobre o projeto a ser criado');
          
         cy.get(el.salvarResumo).click();
 

@@ -17,9 +17,7 @@ describe("Editar Projeto Existente", () => {
   
   it("Editar resumo de um projeto existente", () => 
   {
-    Bussola.EditarUmProjeto(6576);
-
-    Bussola.PreencherResumoDoProjeto();
+       Bussola.PreencherResumoDoProjeto();
  
 });
 

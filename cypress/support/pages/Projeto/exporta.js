@@ -3,9 +3,11 @@
 
 const cadastrarObjetivos = require('./CadastrarObjetivosPageElements').CadastrarObjetivos;
 
+const cadastrarResumo = require('./CadastrarObjetivosPageElements').cadastrarResumo;
 
 
 module.exports = {
     dadosBasicos: dadosBasicos,
-    cadastrarObjetivos: cadastrarObjetivos
+    cadastrarObjetivos: cadastrarObjetivos,
+    cadastrarResumo: cadastrarResumo
 }
