@@ -5,7 +5,7 @@ const path = require('path');
 const config = fs.readFileSync(path.join(__dirname, '../cypress.json'), { encoding: "utf8" });
 
 // Adding the username and password from the variable group
-const configJson = JSON.parse(config,configJunit);
+const configJson = JSON.parse(config);
 
 // Rename the junit file based on the browser used
 configJson.reporterOptions.mochaFile = './reports/junit/junit.${process.env.BROWSER || "unknown"}-[hash].xml';
