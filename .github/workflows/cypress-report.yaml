@@ -1,47 +1,22 @@
-name: Bussola Social E2E
-on:
-  push:
-    branches:
-      - 'master'
-
+name: integration-tests
+on: [pull_request]
 jobs:
-  
-  cypress-e2e-chrome81:
-    name: Run on Chrome 81
-    runs-on: ubuntu-18.04
-    container: cypress/browsers:node12.16.2-chrome81-ff75
+  cypress-run:
+    runs-on: ubuntu-16.04
+    strategy:
+      fail-fast: false
+      matrix:
+        # 10x em parelo
+        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     steps:
-      - uses: actions/checkout@v2
-      
-      - name: Install a project with a clean slate
-        run: |
-          npm ci
-          $(npm bin)/cypress cache path
-          $(npm bin)/cypress cache list
-          $(npm bin)/cypress verify
-      
-      - name: Rodar Testes Cypress 
-        run: npm run test:chrome
-        continue-on-error: true
-      
-      - name: Copiar pasta com videos de testes
-        run: |
-          cp -r cypress/videos reports/videos         
-
-      - name: Copiar pasta com prints de testes
-        run: |
-          cp -r cypress/screenshots reports/screenshots
-          
-      - name: Fazer merger de todos testes gerados e um unico arquivo
-        run: npm run report:merge
-      
-      - name: Gerar um relatorio HTML 
-        run: npm run report:generate
-      
-      - name: Fazer deploy em um pagina do GithubPages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./reports
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          record: true
+          parallel: true
+          group: 'Integration tests'
+          start: npm run serve
+        env:
+          CYPRESS_RECORD_KEY: a64a7266-58c4-44bf-9e8b-c07852a59166
