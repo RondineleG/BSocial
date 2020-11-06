@@ -1,0 +1,26 @@
+name: Bussola Social E2E
+on: 
+ push:
+    branches:
+      - 'master'
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 10x em parelo
+        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
+        with:
+          record: true
+          parallel: true
+          group: 'Integration tests'
+          start: npm run test
+        env:
+          CYPRESS_RECORD_KEY: 121dd1dc-c938-418c-8427-f47faa1d104c
